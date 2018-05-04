@@ -117,3 +117,6 @@ h1,h2,h3,h4,h5{
   max-height: inherit;
   background-color: #3973aa
 }
+.col-md-8{
+  max-height: inherit;
+}
