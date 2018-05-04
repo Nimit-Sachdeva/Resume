@@ -4,7 +4,7 @@ body{
   font-family: 'Raleway', serif;
 }
 .text-color{color:white;}
-h1{margin-top:0}
+
 
 .circular-logo{
   margin-top: 30px;
@@ -14,9 +14,6 @@ h1{margin-top:0}
   border-radius:50% !important;
   max-height: 200px;
   max-width: auto;
-}
-.circular-logo img{
-
 }
 ol li{
   font-size: 20px;
@@ -71,10 +68,34 @@ header{
   background: #2c3d45;
 }
 
+table{
+  font-size: 18px;
+  height: 150px;
+  width: 80%;
+  margin: 0 auto;
+
+}
+.fas,.fa,.far{
+  color: inherit;
+  font-size: 40px;
+}
+th, td {
+  /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+}
+
 header .col-md-8{
-  margin-top: 8%;
+  margin-top: 5%;
   height: 200px;
   /* border:1px solid white; */
+}
+div{
+  /* padding: 1%; */
+}
+
+h1,h2,h3,h4,h5{
+  margin-bottom: 3%;
 }
 .per_info{
   height: 300px;
