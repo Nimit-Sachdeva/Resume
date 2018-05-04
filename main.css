@@ -120,3 +120,14 @@ h1,h2,h3,h4,h5{
 .col-md-8{
   max-height: inherit;
 }
+
+@media (max-width:1200px) {
+  .projects ul li h4, .experiences ul li h4{
+    margin-top: 2%;
+    margin-left:2%;
+    max-width: 180px;
+    display: block;
+  }
+
+
+}
