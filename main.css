@@ -147,12 +147,12 @@ h1,h2,h3,h4,h5{
   }
 
   .achievements{
-
+    text-align: center;
     height: auto;
     max-height: auto;
   }
   .per_info{
-    /* text-align: center; */
+    text-align: center;
     height: auto;
     max-height: auto;
   }
