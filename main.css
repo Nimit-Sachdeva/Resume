@@ -37,6 +37,7 @@ ul li{
   /* border:1px solid; */
   display: inline-block;
   margin-top: 2%;
+  width: auto;
   /* margin-right: 30%; */
 }
 
@@ -47,16 +48,13 @@ a:hover{
   color: orange;
 }
 
-.projects {
-  /* overflow-y: scroll; */
-}
 .projects ul li img{
   max-height: 50px !important;
 }
 .col-md-6 img.acadview{
   height:30px !important;
 }
-.projects ul li h4, {
+.projects ul li h4 {
   margin-top: 2%;
   margin-left:2%;
   /* max-width: 180px; */
@@ -125,28 +123,40 @@ h1,h2,h3,h4,h5{
 .last{
     max-height: 200px;
 }
+  .project ul li {
 
-@media screen and (max-width:1200px) {
+  }
+@media screen and (max-width:768px) {
   .projects ul li img{
     margin-top: 3% !important;
     max-height: 20px !important;
   }
+
   .projects ul li h4{
-    font-size: inherit
+    font-size: inherit;
     margin-top: 2%;
     margin-left:2%;
     max-width: 180px;
     display: inline;
   }
+
+
   header .col-xs-12{
+    text-align: center;
+    height: auto ;
+  }
+
+  .achievements{
+
     height: auto;
+    max-height: auto;
   }
-  .per_info .col-md-4{
-    /* padding: -100px; */
+  .per_info{
+    /* text-align: center; */
+    height: auto;
+    max-height: auto;
   }
-  header .col-md-8{
-    /* height: 500px; */
-  }
+
   table{
     font-size: 8px;
     height: 100px;
@@ -182,10 +192,91 @@ h1,h2,h3,h4,h5{
     margin-left: 2%;
   }
   ol li {
+    /* text-align: center; */
+    /* margin: 0 auto; */
     font-size:12px !important;
   }
   ul li{
     font-size: :12px !important;
+  }
+  .experiences img{
+    margin-top: 0;
+    max-height: 7px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .projects ul li img{
+    margin-top: 3% !important;
+    max-height: 20px !important;
+  }
+
+  .projects ul li h4{
+    font-size: inherit
+    margin-top: 2%;
+    margin-left:2%;
+    max-width: 180px;
+    display: inline;
+  }
+
+
+  header .col-xs-12{
+    text-align: center;
+    height: auto ;
+    margin-bottom: 20px;
+  }
+
+  .per_info , .achievements{
+    max-height: 200px;
+  }
+  .projects-own {
+    max-height: 180px !important;
+  }
+
+  table{
+    font-size: 8px;
+    height: 100px;
+    width: 60%;
+    margin: 0 auto;
+
+  }
+  th, td {
+    /* border: 1px solid black; */
+      text-align: center;
+      padding: 5px;
+  }
+  .circular-logo{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 2%;
+    border: 5px solid white;
+    border-radius:50% !important;
+    max-height: 130px;
+    max-width: auto;
+  }
+  h1{
+    font-size: 24px !important;
+  }
+  h2{
+    font-size: 16px !important;
+  }
+  h4{
+    font-size: 10px !important;
+  }
+  blockquote{
+    font-size: 12px !important;
+    margin-left: 2%;
+  }
+  ol li {
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    font-size:12px !important;
+  }
+  ul li{
+    font-size: :12px !important;
+  }
+  .projects ul li{
+    display: block !important;
   }
   .experiences img{
     margin-top: 0;
