@@ -147,7 +147,7 @@ h1,h2,h3,h4,h5{
   }
 
   .achievements{
-    text-align: center justify;
+    text-align: center;
     height: auto;
     max-height: auto;
   }
@@ -192,20 +192,15 @@ h1,h2,h3,h4,h5{
     font-size: 12px !important;
     margin-left: 2%;
   }
-  ol{
+  .per_info{
+    text-align: center;
+  }
+
+  .per_info ol, .achievements ol{
     display: inline-block;
     text-align: left;
   }
-  ol li {
-    /* text-align: center; */
-    /* margin: 0 auto; */
 
-    font-size:12px !important;
-    list-style-position: inside  !important;
-  }
-  ol li::before{
-    text-align: center !important;
-  }
   ul li{
     font-size: :12px !important;
   }
