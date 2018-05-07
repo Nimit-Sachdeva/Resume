@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$(".col-md-4").hover..bind('touchstart touchend',function(){
+$(".col-md-4").hover(function(){
     $(this).addClass("animated pulse");
   },
     function () {
